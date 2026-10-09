@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About · Rosewick Flower Studio</title>
+  <meta name="description" content="Rosewick is a small flower studio that grows, arranges and delivers seasonal blooms.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Young+Serif&family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/about.css">
+</head>
+<body>
+
+  <header class="nav">
+    <a class="logo" href="#top" aria-label="Rosewick home">Rosewick</a>
+    <nav aria-label="Main">
+      <a href="#story">Our story</a>
+      <a href="#language">Flower language</a>
+      <a href="#ways">How we work</a>
+      <a class="nav-cta" href="#visit">Visit</a>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero-text">
+        <h1>We grow flowers<br>for the moments<br>words can't carry.</h1>
+        <p class="lead">Rosewick is a small flower studio. We plant in spring, cut at dawn, and tie every bunch by hand the same day it leaves our door.</p>
+        <div class="hero-actions">
+          <a class="btn" href="#language">Find your flower</a>
+          <a class="btn-text" href="#story">Read our story</a>
+        </div>
+      </div>
+      <div class="hero-bloom" id="heroBloom" aria-hidden="true"></div>
+    </section>
+
+    <!-- STORY -->
+    <section class="story" id="story">
+      <div class="story-grid">
+        <h2>It started with one<br>overgrown garden.</h2>
+        <div class="story-body">
+          <p>In 2014, Maya Rosewick inherited her grandmother's neglected garden on the edge of town. Under the weeds were forty-year-old roses, still blooming out of stubbornness.</p>
+          <p>She began cutting bunches for neighbours, leaving them on doorsteps with a handwritten note. The notes turned into orders. The orders turned into a studio, a field, and a team of eleven who all still argue about the best way to condition a peony.</p>
+          <p>Today we grow most of what we sell, buy the rest from farms within 80 miles, and never sell a flower that's been in a cold store for more than two days.</p>
+        </div>
+      </div>
+
+      <ul class="facts">
+        <li><strong>11</strong><span>florists and growers</span></li>
+        <li><strong>70+</strong><span>varieties in our field</span></li>
+        <li><strong>0</strong><span>floral foam, ever</span></li>
+        <li><strong>6 am</strong><span>when the cutting starts</span></li>
+      </ul>
+    </section>
+
+    <!-- LANGUAGE OF FLOWERS -->
+    <section class="language" id="language">
+      <div class="section-head">
+        <h2>Every flower says something.</h2>
+        <p>Victorians used bouquets to send messages they couldn't speak. We keep the tradition going. Pick a bloom to see what it means.</p>
+      </div>
+
+      <div class="picker" role="tablist" aria-label="Flowers" id="picker"></div>
+
+      <div class="meaning" id="meaning" aria-live="polite">
+        <div class="meaning-flower" id="meaningFlower" aria-hidden="true"></div>
+        <div class="meaning-text">
+          <h3 id="mName"></h3>
+          <p class="mSays" id="mSays"></p>
+          <p id="mNote"></p>
+          <p class="mSeason" id="mSeason"></p>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW WE WORK -->
+    <section class="ways" id="ways">
+      <h2>How we work</h2>
+      <div class="ways-list">
+        <article>
+          <h3>Seasonal only</h3>
+          <p>No tulips in October, no dahlias in March. What's in the studio is what's growing right now, so it lasts longer in your vase.</p>
+        </article>
+        <article>
+          <h3>Loose and wild</h3>
+          <p>We arrange the way flowers grow: uneven, airy, with a little movement. Nothing stiff, nothing wrapped in plastic.</p>
+        </article>
+        <article>
+          <h3>Gentle on the earth</h3>
+          <p>Peat-free soil, rainwater irrigation and compostable wrapping. Every bouquet comes with a card on how to dry the stems afterwards.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- VISIT -->
+    <section class="visit" id="visit">
+      <div class="visit-card">
+        <h2>Come say hello.</h2>
+        <p>The studio door is open Tuesday to Saturday, 8 am to 5 pm. Stay for tea, walk the field, or just smell the sweet peas.</p>
+        <div class="visit-details">
+          <p><strong>Studio</strong><br>14 Orchard Lane, Wickford</p>
+          <p><strong>Orders</strong><br>hello@rosewick.example<br>Before 11 am for same-day delivery</p>
+        </div>
+        <a class="btn btn-dark" href="mailto:hello@rosewick.example">Order a bouquet</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year">2026</span> Rosewick Flower Studio. Grown with care.</p>
+  </footer>
+
+  <script src="assets/js/About.js"></script>
+</body>
+</html>
